@@ -14,6 +14,7 @@
 	</parent>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.host.url>http://65.1.147.5:8080/</sonar.host.url>
 	</properties>
 	<!-- Build plugins and extensions -->
 	<build>
@@ -30,7 +31,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-plugin-plugin</artifactId>
-				<version>3.6.0</version>
+				<version>3.6.3</version>
 				<executions>
 					<execution>
 						<id>default-descriptor</id>
